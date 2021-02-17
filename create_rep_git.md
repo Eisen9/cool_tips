@@ -3,7 +3,8 @@
 1. create a repository WITHOUT A README file
 2. once you hit create, you will see the following code:
 
-`echo "# cool_tips" >> README.md
+```
+echo "# cool_tips" >> README.md
 
 git init
 
@@ -15,4 +16,6 @@ git branch -M main
 
 git remote add origin https://github.com/username/repository_name.git
 
-git push -u origin main`
+git push -u origin main
+
+```
