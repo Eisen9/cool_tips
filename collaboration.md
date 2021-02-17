@@ -64,3 +64,20 @@ Example: https://github.com/Eisen9/cool_tips.git
   *  e. push changes from your local machine to remote repository (the repository on the internet that you are collaborating with). Run: `git push`
 
   Now, go to GitHub and see your changes displayed there :-)
+
+
+### How to edit new files in a new session?
+
+Okay, suppose you have shut down your computer and now you want to add new files (using GIT) to the repository (that you are collaborating on). How to do this?
+
+#### STEPS:
+
+1. using the command line, navigate to the folder where this repository is locally saved.
+2. run: `git log` to see new logs, either by your or by other users.
+3. run: `git pull` to make sure that your local files are up-to-date with remote repository.
+4. suppose you want to add a new file named:
+    * a. run: `touch new_file.txt`
+    * b. edit new_file.text
+    * c. run: `git add new_file.txt`
+    * d. run: `git commit -m "add new file" `
+    * e. run: `git push`. Your file is now added to the remote    repository. 
