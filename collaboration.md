@@ -44,7 +44,7 @@ If you are NOT added as a collaborator (**which is not the case in this tutorial
 3. Go to the repository you want to clone, select **<> code** from navigation bar, copy code with *HTTPS*. Then, using the command line, navigate to your directory that you have created in step 2 then run: `git clone https://github.com/username/repository_name.git`
 
 Example: https://github.com/Eisen9/cool_tips.git
-   where *Eisen9* is the username
+   where *Eisen9* is the username and 
    *cool_tips* is the repository name
 
 4. make sure that repository is up-to-date on your machine by running: `git pull`
@@ -80,4 +80,4 @@ Okay, suppose you have shut down your computer and now you want to add new files
     * b. edit new_file.text
     * c. run: `git add new_file.txt`
     * d. run: `git commit -m "add new file" `
-    * e. run: `git push`. Your file is now added to the remote    repository. 
+    * e. run: `git push`. Your file is now added to the remote    repository.
