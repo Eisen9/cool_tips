@@ -41,7 +41,7 @@ If you are NOT added as a collaborator (**which is not the case in this tutorial
 
 2. create a folder in your desired location **give it a name of the repository you are going to clone**
 
-3. using the command line, navigate to your directory that you have created in step 2 then run: `git clone https://github.com/username/repository_name.git`
+3. Go to the repository you want to clone, select **<> code** from navigation bar, copy code with *HTTPS*. Then, using the command line, navigate to your directory that you have created in step 2 then run: `git clone https://github.com/username/repository_name.git`
 
 Example: https://github.com/Eisen9/cool_tips.git
    where *Eisen9* is the username
