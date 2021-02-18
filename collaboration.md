@@ -73,7 +73,7 @@ Okay, suppose you have shut down your computer and now you want to add new files
 #### STEPS:
 
 1. using the command line, navigate to the folder where this repository is locally saved.
-2. run: `git log` to see new logs, either by your or by other users.
+2. run: `git log` to see new logs, either by you or by other users.
 3. run: `git pull` to make sure that your local files are up-to-date with remote repository.
 4. suppose you want to add a new file named *new_file.txt*:
     * a. run: `touch new_file.txt`
