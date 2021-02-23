@@ -1,4 +1,5 @@
 ### Branches
+*📢If you want the short version (commands only), scroll down to the end of this doc*.
 
 In this file, you will find the following:
 
