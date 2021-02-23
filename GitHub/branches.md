@@ -31,7 +31,9 @@ The asterisk in the command line, shows you which branch you are currently on.
 * while in the new branch, commit your changes
 `git commit -m "my changes" `
 
-* to see your commits:
+* at this stage, you have my-new-branch locally. If you want to have it remotly, on GitHub, you can run: `git push --set-upstream origin my-new-branch`
+
+* see your commits:
 `git log`
 here, you will see what branch has been committed to.
 
@@ -56,7 +58,10 @@ In short, here is what you do if you want to create a new brach, make changes in
 * make changes: edit / create new files
 * `git add .` or `git add <file>`
 * `git commit -m "my changes"`
+* if you want to make your branch remote (locally as well as on GitHub). Run: `git push --set-upstream origin my-new-branch`
 * If you are happy with your changes, switch to the main branch to merge from there. Run `git checkout main`
 * push changes `git push`
+
+
 
 *End*.
