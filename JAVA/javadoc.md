@@ -3,13 +3,16 @@
 ### STEPS:
 
 1. Comment your Java code with javadocs comments.
-E.g. /**
+E.g.
+```
+/**
        @author
        @param
        etc.
-        */.
+        */
+```
 
-Make sure that all your methods are commented (right above the method decleration) with javadocs comments.
+    Make sure that all your methods are commented (right above the   method decleration) with javadocs comments.
 
 
 2. Using the command line, navigate to the folder in which your Java files are saved. If you are using IDE, then this would be the src folder.
