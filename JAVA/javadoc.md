@@ -4,10 +4,11 @@
 
 1. Comment your Java code with javadocs comments.
 E.g. /**
-      * @author
-      * @param
-      * etc.
+       @author
+       @param
+       etc.
         */.
+
 Make sure that all your methods are commented (right above the method decleration) with javadocs comments.
 
 
