@@ -1,4 +1,4 @@
-### How to add a Junit test to your existing JAVA code in Eclipse?
+#### How to add a Junit test to your existing JAVA code in Eclipse?
 
 Inside the class and outside the main method (and probably other methods),
 Create the following testing method:
