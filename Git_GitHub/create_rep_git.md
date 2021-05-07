@@ -19,3 +19,5 @@ git remote add origin https://github.com/username/repository_name.git
 git push -u origin main
 
 ```
+
+Copy and paste this code in your wokring directory using the command line 
