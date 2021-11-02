@@ -10,12 +10,12 @@ Suppose you want are a collaborator in a GitHub repo, you want to make some push
 2. Choose the option VCS - import from VCS.
 
 3. When prompted to type in a URL, here is what you need to do:
-  a. Go to the remote repo you are interested in
-  b. Go to <> code from the Navbar
-  c. Click the `code` button and you will see a drop down menu
-  d. Copy the code that is generated from the `HTTPS` option
-  e. paste the code you copied in step *d* into IntelliJ's URL prompt.
+  * a. Go to the remote repo you are interested in
+  * b. Go to <> code from the Navbar
+  * c. Click the `code` button and you will see a drop down menu
+  * d. Copy the code that is generated from the `HTTPS` option
+  * e. paste the code you copied in step *d* into IntelliJ's URL prompt.
 
 4. optional (if there are libraries involved). For the sake of example, we will use a javaparser library here.
-From IntelliJ, go to, File > Project Structure > project settings > libraries, then click the + button to add the following library  “com.github.javaparser:javaparser-symbol-solver-core:3.23.1” 
+From IntelliJ, go to, File > Project Structure > project settings > libraries, then click the + button to add the following library  “com.github.javaparser:javaparser-symbol-solver-core:3.23.1”
 5. Click apply then ok
