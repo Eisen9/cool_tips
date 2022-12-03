@@ -1,5 +1,5 @@
 ### Branches
-***📢If you want the short version (commands only), scroll down to the end of this doc***.
+***📢 If you want the short version (commands only), scroll down to the end of this doc***.
 
 
 In this file, you will find the following:
@@ -8,15 +8,19 @@ Using the command line and git:
 
 * create a new branch
 * make changes in your new branch
-* merging these changes with the main branch.
+* merge these changes with the main branch.
 
 #### Practical Steps for creating
 
 * see past logs
 `git log`
+*In order for you to move on with this tutorial smoothly, you need to make sure that you need to have made at least one commit -- no push needed*
 
 * create a branch
 `git branch my-new-branch`
+
+* create a new branch and switch to it in one command
+`git checkout -b my-new-branch` *notice how flag -b means branch*
 
 * check what branches you have
 `git branch`
@@ -24,6 +28,7 @@ The asterisk in the command line, shows you which branch you are currently on.
 
 * to switch from branch to branch  
 `git checkout my-new-branch` or, `git checkout main`
+alternatively, you can run `git switch <name of branch>`
 
 * now, you can make changes to the file(s) that is/are in the master branch. However, the code in the master will not be changed. The only change (to the file(s) that you wish to change), will be in your new branch.
 
@@ -33,7 +38,7 @@ The asterisk in the command line, shows you which branch you are currently on.
 * while in the new branch, commit your changes
 `git commit -m "my changes" `
 
-* at this stage, you have my-new-branch locally. If you want to have it remotly, on GitHub, you can run: `git push --set-upstream origin my-new-branch`
+* at this stage, you have my-new-branch locally. If you want to have it remotely, on GitHub, you can run: `git push --set-upstream origin my-new-branch`
 
 * see your commits:
 `git log`
