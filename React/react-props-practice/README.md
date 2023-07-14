@@ -1,5 +1,5 @@
 
-```
+
 # React Props Usage
 
 This README file provides an overview of how React props are used in the provided files.
@@ -74,6 +74,3 @@ In the above example, the `App` component renders multiple contact cards using t
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-That's it! You can now include this README file in your project to provide an overview of how React props are used.
-```
